@@ -13,6 +13,14 @@
       > img {
         max-height: 45px;
       }
+
+      > div {
+        display: flex;
+        gap: 16px;
+        button {
+          height: 40px;
+        }
+      }
     }
   }
 
@@ -60,18 +68,17 @@
         align-items: center;
         margin-top: 16px;
 
-        .user-info{
+        .user-info {
           display: flex;
           align-items: center;
 
-          img{
+          img {
             width: 32px;
             height: 32px;
             border-radius: 50%;
-
           }
 
-          span{
+          span {
             margin-left: 14px;
             color: #29292e;
             font-weight: 500;
@@ -94,6 +101,10 @@
           }
         }
       }
+    }
+
+    .question-list {
+      margin-top: 32px;
     }
   }
 }
